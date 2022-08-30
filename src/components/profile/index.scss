@@ -1,0 +1,50 @@
+$profile_background_color: #212529;
+$profile_color: #ffffff;
+$profile_padding_top: 100px;
+$title_font_size: 40px;
+$title_font_weight: bold;
+$title_padding_top: 50px;
+$title_padding_bottom: 50px;
+$avatar_margin_top: 30px;
+$avatar_width: 150px;
+$avatar_height: 150px;
+$info_button_color: #ffffff;
+
+.profile {
+  background-color: $profile_background_color;
+  color: $profile_color;
+  padding-top: $profile_padding_top;
+}
+
+.link {
+  align-items: center;
+}
+
+.link input {
+  border: none;
+}
+
+.link input:focus {
+  box-shadow: none;
+}
+
+.title {
+  font-size: $title_font_size;
+  font-weight: $title_font_weight;
+  padding-top: $title_padding_top;
+  padding-bottom: $title_padding_bottom;
+}
+
+.avatar-image {
+  object-fit: cover;
+  margin-top: $avatar_margin_top;
+  width: $avatar_width;
+  height: $avatar_height;
+}
+
+.info-button {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  color: $info_button_color;
+}

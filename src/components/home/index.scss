@@ -1,0 +1,75 @@
+$top_backgroung_color: #212529;
+$top_color: #ffffff;
+$top_padding_bottom: 50px;
+$top_title_font_size: 50px;
+$top_title_font_weight: bold;
+$top_text_font_size: 30px;
+$top_card_margin_top: 50px;
+$content_top_margin_top: 50px;
+$content_top_margin_bottom: 30px;
+$content_top_font_size: 30px;
+$content_top_font_weight: bold;
+$top_learn_margin_top: 40px;
+$col_card_padding_top: 20px;
+$avatar_margin_right: 10px;
+$badge_margin_left: 20px;
+$explore_button_margin_right: 30px;
+
+.content {
+  margin-top: 50px;
+}
+
+.top {
+  background-color: $top_backgroung_color;
+  color: $top_color;
+  padding-bottom: $top_padding_bottom;
+}
+
+.top-title {
+  font-size: $top_title_font_size;
+  font-weight: $top_title_font_weight;
+}
+
+.top-text {
+  font-size: $top_text_font_size;
+}
+.top-card {
+  margin-top: $top_card_margin_top;
+}
+
+.content-top {
+  margin-top: $content_top_margin_top;
+  margin-bottom: $content_top_margin_bottom;
+  text-align: center;
+  font-size: $content_top_font_size;
+  font-weight: $content_top_font_weight;
+}
+
+.top-learn {
+  margin-top: $top_learn_margin_top;
+}
+
+.col-card {
+  padding-top: $col_card_padding_top;
+}
+
+.avatar {
+  float: left;
+  margin-right: $avatar_margin_right;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.badge {
+  padding-right: $badge_margin_left;
+}
+
+.explore-button {
+  margin-right: $explore_button_margin_right;
+}
+
+.home-card-image {
+  aspect-ratio: 2 / 1;
+}

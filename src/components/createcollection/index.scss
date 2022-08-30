@@ -1,0 +1,67 @@
+$collection_background_color: #202225;
+$profile_color: #ffffff;
+$profile_padding_top: 100px;
+$profile_padding_bottom: 100px;
+
+$logo_margin_top: 30px;
+$logo_margin_bottom: 50px;
+$logo_width: 150px;
+$logo_height: 150px;
+
+$featured_margin_top: 30px;
+$featured_margin_bottom: 50px;
+$featured_width: 300px;
+$featured_height: 200px;
+
+$banner_margin_top: 30px;
+$banner_margin_bottom: 50px;
+$banner_width: 600px;
+$banner_height: 200px;
+
+$featured_padding_top_bottom: 30px;
+$featured_padding_right_left: 80px;
+
+$banner_padding_top_bottom: 30px;
+$banner_padding_right_left: 230px;
+
+$collection_title_font_size: 50px;
+$collection_title_margin_bottom: 70px;
+
+.collection {
+  background-color: $collection_background_color;
+  color: $profile_color;
+  padding-top: $profile_padding_top;
+  padding-bottom: $profile_padding_bottom;
+}
+
+.logo-image {
+  object-fit: cover;
+  margin-top: $logo_margin_top;
+  margin-bottom: $logo_margin_bottom;
+  width: $logo_width;
+  height: $logo_height;
+  border-style: dashed;
+}
+
+.featured-image {
+  object-fit: cover;
+  margin-top: $featured_margin_top;
+  margin-bottom: $featured_margin_bottom;
+  width: $featured_width;
+  height: $featured_height;
+  border-style: dashed;
+}
+
+.banner-image {
+  object-fit: cover;
+  margin-top: $banner_margin_top;
+  margin-bottom: $banner_margin_bottom;
+  width: $banner_width;
+  height: $banner_height;
+  border-style: dashed;
+}
+
+.collection-title {
+  font-size: $collection_title_font_size;
+  margin-bottom: $collection_title_margin_bottom;
+}

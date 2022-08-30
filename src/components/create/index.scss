@@ -1,0 +1,32 @@
+$context_padding_top: 100px;
+$wallet_height: 40px;
+$wallet_margin_right: 20px;
+$title_font_size: 35px;
+$title_font_weight: bold;
+$body_font_size: 25px;
+$context_margin_top: 60px;
+
+.wallet-image {
+  height: $wallet_height;
+  padding-right: $wallet_margin_right;
+}
+
+.context {
+  padding-top: $context_padding_top;
+  justify-content: center;
+  display: flex;
+}
+
+.context-title {
+  font-weight: $title_font_weight;
+  font-size: $body_font_size;
+}
+
+.context-body {
+  font-size: $body_font_size;
+}
+
+.create-context {
+  text-align: center;
+  margin-top: $context_margin_top;
+}

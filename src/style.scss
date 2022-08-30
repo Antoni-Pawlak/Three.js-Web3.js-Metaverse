@@ -1,0 +1,36 @@
+$body_background: #f0f0f0;
+$width: 100%;
+$height: 100%;
+$margin: 0;
+$padding: 0;
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: $width;
+  height: $height;
+  margin: $margin;
+  padding: $padding;
+  overflow-x: hidden;
+}
+
+body {
+  background: $body_background;
+}
+
+*::-webkit-scrollbar {
+  width: 3px;
+}
+
+*::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px #9ebeee;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #9ebeee;
+  outline: 1px solid #9ebeee;
+}

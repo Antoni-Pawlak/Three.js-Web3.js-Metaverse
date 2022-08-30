@@ -1,0 +1,14 @@
+$collection_background_color: #202225;
+$profile_color: #ffffff;
+$profile_padding_top: 100px;
+
+.collection {
+  background-color: $collection_background_color;
+  color: $profile_color;
+  padding-top: $profile_padding_top;
+}
+
+.card-image {
+  object-fit: cover;
+  aspect-ratio: 3 / 2;
+}
